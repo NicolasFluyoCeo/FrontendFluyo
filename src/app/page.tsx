@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <PageWrapper>
       <Hero />
-      <AboutSection />
       <StepsSection />
       <FAQ />
     </PageWrapper>

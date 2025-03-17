@@ -48,7 +48,7 @@ export default function Hero() {
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
                 <Button asChild size="lg" className="bg-primary text-white px-8">
-                  <Link href="/Contact">Habla con un asesor</Link>
+                  <Link href="/Contact">Contactar a un humano</Link>
                 </Button>
               </motion.div>
 
@@ -58,7 +58,7 @@ export default function Hero() {
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
                 <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 px-8">
-                  <Link href="/#about-us">Conoce Fluyo</Link>
+                  <Link href="/#about-us">Ver la Magia</Link>
                 </Button>
               </motion.div>
             </div>

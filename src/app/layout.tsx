@@ -16,8 +16,8 @@ const darkerGrotesque = Darker_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Fluyo: Transparencia y acceso a licitaciones públicas",
-  description: "Fluyo facilita el acceso a contrataciones públicas en América Latina, permitiendo a las empresas descubrir oportunidades reales con total transparencia y sin corrupción.",
+  title: "SAMMY: The AI Customer Success Solution",
+  description: "The only platform that keeps your users delighted by generating bespoke user walkthroughs, documentation, and tailored onboardings that automatically update with your product.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${outfit.variable} ${darkerGrotesque.variable}`}>
+    <html lang="en" className={`${outfit.variable} ${darkerGrotesque.variable}`}>
       <ClientBody>
         {children}
       </ClientBody>

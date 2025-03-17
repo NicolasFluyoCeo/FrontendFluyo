@@ -10,22 +10,20 @@
     --card-foreground: 20 14.3% 4.1%;
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
-    /* Actualizamos el color primario a azul */
-    --primary: 220 90% 56%;  /* Nuevo valor HSL para azul */
-    --primary-rgb: 42, 109, 244;  /* Nuevo RGB para azul */
+    --primary: 200 77% 52%; /* Changed to blue */
+    --primary-rgb: 0, 122, 255; /* Changed to blue */
     --primary-foreground: 60 9.1% 97.8%;
-    --secondary: 60 4.8% 95.9%;
+    --secondary: 200 4.8% 95.9%; /* Changed to blue */
     --secondary-foreground: 24 9.8% 10%;
-    --muted: 60 4.8% 95.9%;
+    --muted: 200 4.8% 95.9%; /* Changed to blue */
     --muted-foreground: 25 5.3% 44.7%;
-    --accent: 60 4.8% 95.9%;
+    --accent: 200 4.8% 95.9%; /* Changed to blue */
     --accent-foreground: 24 9.8% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 60 9.1% 97.8%;
     --border: 20 5.9% 90%;
     --input: 20 5.9% 90%;
-    /* Actualizamos también el ring para coherencia */
-    --ring: 220 90% 56%;
+    --ring: 200 77% 52%; /* Changed to blue */
     --radius: 0.5rem;
   }
 
@@ -36,27 +34,27 @@
     --card-foreground: 60 9.1% 97.8%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
-    /* Actualizamos el color primario en modo oscuro */
-    --primary: 220 90% 56%;
-    --primary-rgb: 42, 109, 244;
+    --primary: 200 77% 52%; /* Changed to blue */
+    --primary-rgb: 0, 122, 255; /* Changed to blue */
     --primary-foreground: 60 9.1% 97.8%;
-    --secondary: 12 6.5% 15.1%;
+    --secondary: 200 6.5% 15.1%; /* Changed to blue */
     --secondary-foreground: 60 9.1% 97.8%;
-    --muted: 12 6.5% 15.1%;
+    --muted: 200 6.5% 15.1%; /* Changed to blue */
     --muted-foreground: 24 5.4% 63.9%;
-    --accent: 12 6.5% 15.1%;
+    --accent: 200 6.5% 15.1%; /* Changed to blue */
     --accent-foreground: 60 9.1% 97.8%;
     --destructive: 0 72.2% 50.6%;
     --destructive-foreground: 60 9.1% 97.8%;
     --border: 12 6.5% 15.1%;
     --input: 12 6.5% 15.1%;
-    --ring: 220 90% 56%;
+    --ring: 200 77% 52%; /* Changed to blue */
   }
+}
 
+@layer base {
   * {
     @apply border-border;
   }
-
   body {
     @apply bg-background text-foreground;
     background-image: linear-gradient(

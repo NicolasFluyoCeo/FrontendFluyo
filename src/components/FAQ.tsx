@@ -12,11 +12,8 @@ import {
 const faqItems = [
   {
     question: "¿Cómo se actualiza automáticamente Fluyo cuando hay cambios en los pliegos?",
-    answer: "Fluyo utiliza inteligencia artificial para monitorear constantemente el SECOP y detectar actualizaciones en los pliegos. Cuando se identifican cambios, nuestro sistema actualiza la información y notifica a los usuarios de manera automática, garantizando acceso a datos siempre actualizados sin intervención manual."
+    answer: "Fluyo ofrece análisis detallados que incluyen métricas como la detección de oportunidades, la reducción de errores en la contratación y la optimización en la toma de decisiones. Estas métricas te permiten evaluar el retorno de inversión y mejorar continuamente tu estrategia en licitaciones públicas."
   },
-
- 
-
   {
     question: "¿Cómo mide Fluyo el éxito?",
     answer: "Fluyo ofrece análisis detallados que incluyen métricas como la detección de oportunidades, la reducción de errores en la contratación y la optimización en la toma de decisiones. Estas métricas te permiten evaluar el retorno de inversión y mejorar continuamente tu estrategia en licitaciones públicas."
