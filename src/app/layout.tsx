@@ -16,8 +16,8 @@ const darkerGrotesque = Darker_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "SAMMY: The AI Customer Success Solution",
-  description: "The only platform that keeps your users delighted by generating bespoke user walkthroughs, documentation, and tailored onboardings that automatically update with your product.",
+  title: "Fluyo: Transparencia y acceso a licitaciones públicas",
+  description: "Fluyo facilita el acceso a contrataciones públicas en América Latina, permitiendo a las empresas descubrir oportunidades reales con total transparencia y sin corrupción.",
   icons: {
     icon: "/favicon.svg",
   },
