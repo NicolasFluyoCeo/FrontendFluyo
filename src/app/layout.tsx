@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit, Darker_Grotesque } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
+import { Providers } from "@/components/Providers";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -30,9 +31,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${outfit.variable} ${darkerGrotesque.variable}`}>
-      <ClientBody>
-        {children}
-      </ClientBody>
+      <body className="antialiased">
+        <Providers>
+          <ClientBody>
+            {children}
+          </ClientBody>
+        </Providers>
+      </body>
     </html>
   );
 }
